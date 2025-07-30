@@ -1,0 +1,285 @@
+.slider .slider-slides-container {
+  position: relative;
+}
+
+.slider-container .slider-wrapper {
+  padding: 0;
+  margin : 0;
+  max-width: 100%;
+}
+
+.section.slider-container:has(.slider.desktop-3) {
+  padding: 32px 0;
+}
+
+.slider .slider-slides,
+.slider .slider-slide-indicators {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.slider .slider-slides {
+  display: flex;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  overflow: scroll clip;
+}
+
+.slider .slider-slides::-webkit-scrollbar {
+  display: none;
+}
+
+.slider .slider-slide {
+  flex: 0 0 100%;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  min-height: min(575px, calc(100dvh - var(--header-height)));
+}
+
+a.slider-slide-link {
+  width: 100%;
+  height: 100%;
+}
+
+.slider-container .slider-wrapper:has(.slider.desktop-3) {
+  padding: 32px;
+  margin : 0 auto;
+  max-width: 70%;
+}
+
+.slider.desktop-3.block .slider-slide {
+  flex: 0 0 100%;
+  height: 230px;
+  min-height: 230px;
+  margin: 0 5px;
+  z-index: 2; /* Ensure slides with a href don't have a dead spot in the center from the navigation arrow div */
+}
+
+
+
+.slider .slider-slide:has(.slider-slide-content[data-align='center']) {
+  align-items: center;
+}
+
+.slider .slider-slide:has(.slider-slide-content[data-align='right']) {
+  align-items: flex-end;
+}
+
+.slider .slider-slide .slider-slide-image picture {
+  position: absolute;
+  inset: 0;
+}
+
+.slider.desktop-3 .slider-slide-title {
+  width: 100%;
+  text-align: left;
+  margin: 12px 0 0;
+  padding-left: 0;
+  font-family: var(--body-font-family, inherit);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--cor-global-secundaria, #e0e7ce);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  position: relative;
+  top: 8px;
+}
+
+/* Reset slider-slide-title position to 0 if its parent is an 'a' element */
+.slider.desktop-3.block .slider-slide-link > .slider-slide-title {
+  top: 0;
+}
+
+/* 1. Make slides 30px taller if a title is present */
+.slider.desktop-3.block .slider-slide:has(.slider-slide-title) {
+  min-height: 260px; /* 230px + 30px */
+  height: 260px;
+
+  & .slider-slide-image {
+    height: 230px;
+  }
+
+  & .slider-slide-image picture{
+    height: 230px;
+  }
+
+}
+
+.slider .slider-slide .slider-slide-image picture > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.slider .slider-slide .slider-slide-content {
+  z-index: 1;
+  margin: 68px;
+  padding: 16px;
+  position: relative;
+  width: var(--slide-content-width, auto);
+}
+
+.slider.desktop-3 .slider-slide .slider-slide-content {
+  z-index: 1;
+  margin: 8px;
+  padding: 16px;
+  position: relative;
+  top: 100px;
+}
+
+.slider .slider-slide-indicators {
+  display: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px 12px;
+  padding: 12px;
+  line-height: 0;
+}
+
+.slider .slider-slide-indicator button {
+  width: 11px;
+  height: 11px;
+  margin: 0;
+  padding: 0;
+  border-radius: 50%;
+  background-color: var(--cor-global-secundaria);
+  transition: background-color 0.2s;
+}
+
+.slider .slider-slide-indicator button:disabled,
+.slider .slider-slide-indicator button:hover,
+.slider .slider-slide-indicator button:focus-visible {
+  background-color: var(--cor-global-secundaria);
+}
+
+.slider .slider-slide-indicator button.active {
+  background-color: var(--cor-global-primaria);
+}
+
+.slider .slider-navigation-buttons {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 12px;
+  right: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.slider.desktop-3 .slider-navigation-buttons  {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -64px;
+  right: -64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.slider.desktop-3 .slider-slide-indicators {
+  display: flex;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.slider .slider-navigation-buttons button {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  margin: 0;
+  border-radius: 50%;
+  padding: 0;
+  background-color: rgba(19 19 19 / 25%);
+  transition: background-color 0.2s;
+}
+
+.slider .slider-navigation-buttons button:hover,
+.slider .slider-navigation-buttons button:focus-visible {
+  background-color: rgba(19 19 19 / 75%);
+}
+
+.slider .slider-navigation-buttons button::after {
+  display: block;
+  content: '';
+  border: 2px solid;
+  border-bottom: 0;
+  border-left: 0;
+  height: 12px;
+  width: 12px;
+  position: absolute;
+  top: 50%;
+  left: calc(50% + 2px);
+  transform: translate(-50%, -50%) rotate(-135deg);
+}
+
+.slider .slider-navigation-buttons button.slide-next::after {
+  transform: translate(-50%, -50%) rotate(45deg);
+  left: calc(50% - 2px);
+}
+
+@media (width >= 600px) {
+    .slider .slider-navigation-buttons {
+    left: 24px;
+    right: 24px;
+  }
+
+    .slider.desktop-3.block .slider-slide {
+    flex: 0 0 calc(100% / 2);
+    height: 230px;
+    min-height: 230px;
+    margin: 0 5px;
+  }
+  
+  .slider.desktop-3 .slider-navigation-buttons  {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -64px;
+  right: -64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+  .section.slider-container:has(.slider.desktop-3):has(.slider-slide-title) .slider-navigation-buttons {
+    top: 50%;
+    transform: translateY(calc(-50% - 15px));
+    left: -64px;
+    right: -64px;
+  }
+
+  .slider .slider-slide .slider-slide-content {
+    --slide-content-width: calc((100% - 184px) / 2);
+
+    margin: 92px;
+  }
+
+  .slider.desktop-3 .slider-slide .slider-slide-content {
+    --slide-content-width: calc(100% - 24px);
+
+    margin: 12px;
+  }
+
+  .slider .slider-slide .slider-slide-content[data-align='justify'] {
+    --slide-content-width: auto;
+  }
+}
+
+@media (width >= 900px) {
+  .slider.desktop-3.block .slider-slide {
+    flex: 0 0 calc(100% / 3);
+    height: 230px;
+    min-height: 230px;
+    margin: 0 5px;
+  }
+}
