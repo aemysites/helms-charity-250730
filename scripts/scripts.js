@@ -73,6 +73,72 @@ function buildAutoBlocks() {
 }
 
 /**
+ * Calcula qual índice de imagem deve ser exibido,
+ * com base no número de imagens e no tamanho atual da janela de visualização.
+ * Calculates which image index should be shown and when
+ * @param {number} imageCount o número de imagens (3, 2 ou 1)
+ * @returns {number} o índice da imagem a ser exibida.
+ */
+function getResponsiveImageIndex(imageCount) {
+  if (imageCount === 3) {
+    if (MOBILE_MQ.matches) return 0;
+    if (TABLET_MQ.matches && !DESKTOP_MQ.matches) return 1;
+    if (DESKTOP_MQ.matches) return 2;
+    return 0; // fallback (contingência)
+  }
+  if (imageCount === 2) {
+    if (MOBILE_MQ.matches) return 0;
+    if (TABLET_MQ.matches || DESKTOP_MQ.matches) return 1;
+    return 0; // fallback (contingência)
+  }
+  return 0; // fallback (contingência)
+}
+
+/**
+ * Cria um array de imagens a partir de um array de elementos picture.
+ * Creates an array of images from a given array of picture elements.
+ * @param {Array} pictures o array de elementos picture
+ * @returns {Array} o array de imagens
+ */
+function getResponsiveImageEntries(pictures) {
+  return Array.from(pictures).map((picture, idx) => (
+    {
+      idx,
+      picture,
+      parent: picture.parentElement,
+      img: picture.querySelector('img'),
+    }
+  ));
+}
+
+/**
+ * Atualiza as imagens responsivas e seus atributos de carregamento
+ * Updates the responsive images and their loading attributes
+ * @param {Array} imageEntries o array de imagens
+ */
+function updateResponsiveImages(imageEntries) {
+  const currentIdx = getResponsiveImageIndex(imageEntries.length);
+  imageEntries.forEach(({
+    idx, picture, parent, img,
+  }) => {
+    if (idx === currentIdx) {
+      if (!parent.contains(picture)) {
+        parent.appendChild(picture);
+      }
+      /* Defina loading='eager' somente se estiver dentro de um bloco Hero,
+       porque presumo que este seja o primeiro bloco da página.
+       Only set loading='eager' if inside a Hero block becauseI assume
+       this block is above the fold and contains the first image.
+       */
+      const heroBlock = picture.closest('.hero');
+      if (img && heroBlock) img.setAttribute('loading', 'eager');
+    } else if (parent.contains(picture)) {
+      parent.removeChild(picture);
+    }
+  });
+}
+
+/**
  * Decorates the main element.
  * @param {Element} main The main element
  */
