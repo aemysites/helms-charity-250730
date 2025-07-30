@@ -13,6 +13,13 @@ import {
   loadCSS,
 } from './aem.js';
 
+// Consultas de mídia (media queries/viewports). ref:  https://www.freecodecamp.org/news/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862/
+const MOBILE_MQ = window.matchMedia('(max-width:599px)');
+const TABLET_MQ = window.matchMedia('(min-width:600px)');
+const DESKTOP_MQ = window.matchMedia('(min-width:900px)');
+// adicione os modelos permitidos aqui (add the allowed templates here)
+// const TEMPLATES = ['property', 'home'];
+
 /**
  * Moves all the attributes from a given elmenet to another given element.
  * @param {Element} from the element to copy attributes from
