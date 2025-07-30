@@ -79,6 +79,44 @@ function buildAutoBlocks() {
   }
 }
 
+export function prepareResponsivePictures(bgImagesDiv) {
+  const pictures = bgImagesDiv.querySelectorAll('picture');
+  if (pictures.length >= 2) {
+    pictures.forEach((picture, idx) => {
+      if (idx === 0) picture.parentElement.classList.add('mobile');
+      if (idx === 1) picture.parentElement.classList.add('tablet');
+      if (idx === 2) picture.parentElement.classList.add('desktop');
+    });
+
+    const imageEntries = getResponsiveImageEntries(pictures);
+    updateResponsiveImages(imageEntries);
+
+    let resizeTimeout;
+    window.addEventListener('resize', () => {
+      clearTimeout(resizeTimeout);
+      resizeTimeout = setTimeout(updateResponsiveImages(imageEntries), 100);
+    });
+  }
+}export function prepareResponsivePictures(bgImagesDiv) {
+  const pictures = bgImagesDiv.querySelectorAll('picture');
+  if (pictures.length >= 2) {
+    pictures.forEach((picture, idx) => {
+      if (idx === 0) picture.parentElement.classList.add('mobile');
+      if (idx === 1) picture.parentElement.classList.add('tablet');
+      if (idx === 2) picture.parentElement.classList.add('desktop');
+    });
+
+    const imageEntries = getResponsiveImageEntries(pictures);
+    updateResponsiveImages(imageEntries);
+
+    let resizeTimeout;
+    window.addEventListener('resize', () => {
+      clearTimeout(resizeTimeout);
+      resizeTimeout = setTimeout(updateResponsiveImages(imageEntries), 100);
+    });
+  }
+}
+
 /**
  * Calcula qual índice de imagem deve ser exibido,
  * com base no número de imagens e no tamanho atual da janela de visualização.
