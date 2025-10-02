@@ -1,0 +1,598 @@
+{
+  "fragments": [
+    {
+      "name": "nav",
+      "path": "/nav",
+      "totalBoxes": 1,
+      "instances": [
+        {
+          "url": "https://www.idfcfirstbank.com/credit-card/rupay-credit-card",
+          "urlHash": "d030a1527e1fb1d56a7342814c1a5fa82bd14cce",
+          "uuid": "d030a152-00-49bf44183a793fdcabc69da9d6ed98881794fe89",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[1]"
+        }
+      ],
+      "styles": {
+        "height": 55,
+        "background": "rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box"
+      }
+    },
+    {
+      "name": "footer",
+      "path": "/footer",
+      "totalBoxes": 1,
+      "instances": [
+        {
+          "url": "https://www.idfcfirstbank.com/credit-card/rupay-credit-card",
+          "urlHash": "d030a1527e1fb1d56a7342814c1a5fa82bd14cce",
+          "uuid": "d030a152-43-4c01274fedd73934e167f11b4ea0f20604819d4f",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/footer[1]/div[2]"
+        }
+      ],
+      "styles": {
+        "background": "rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Cards",
+      "cluster": 1,
+      "source": "Cards",
+      "target": "Cards (cards1)",
+      "key": "cards1",
+      "instances": [
+        {
+          "url": "https://www.idfcfirstbank.com/credit-card/rupay-credit-card",
+          "urlHash": "d030a1527e1fb1d56a7342814c1a5fa82bd14cce",
+          "uuid": "d030a152-37-6773a6e53470e3ace1f9cb0902c66b4869dfd3de",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[15]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+          "section": "section-13"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 2,
+      "source": "Cards",
+      "target": "Cards (cards2)",
+      "key": "cards2",
+      "instances": [
+        {
+          "url": "https://www.idfcfirstbank.com/credit-card/rupay-credit-card",
+          "urlHash": "d030a1527e1fb1d56a7342814c1a5fa82bd14cce",
+          "uuid": "d030a152-12-3a9c21848c028c2c5cfa41a9b80f84c95de23382",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[4]/section[1]/div[1]/div[1]/div[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 3,
+      "source": "Cards",
+      "target": "Cards (cards3)",
+      "key": "cards3",
+      "instances": [
+        {
+          "url": "https://www.idfcfirstbank.com/credit-card/rupay-credit-card",
+          "urlHash": "d030a1527e1fb1d56a7342814c1a5fa82bd14cce",
+          "uuid": "d030a152-33-7f9efcc8a6cfdbe41bb4745fa819b82b8edd789b",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[13]",
+          "section": "section-11"
+        }
+      ]
+    },
+    {
+      "name": "Accordion",
+      "cluster": 4,
+      "source": "Accordion",
+      "target": "Accordion (accordion4)",
+      "key": "accordion4",
+      "instances": [
+        {
+          "url": "https://www.idfcfirstbank.com/credit-card/rupay-credit-card",
+          "urlHash": "d030a1527e1fb1d56a7342814c1a5fa82bd14cce",
+          "uuid": "d030a152-30-323781515b924c2ebc407479572247eddb6ec608",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[12]/section[1]/div[1]/div[1]/div[2]",
+          "section": "section-10"
+        },
+        {
+          "url": "https://www.idfcfirstbank.com/credit-card/rupay-credit-card",
+          "urlHash": "d030a1527e1fb1d56a7342814c1a5fa82bd14cce",
+          "uuid": "d030a152-31-7a3daa0a30f82375edc0b5e998794469d8a2511d",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[12]/section[1]/div[1]/div[1]/div[3]",
+          "section": "section-10"
+        },
+        {
+          "url": "https://www.idfcfirstbank.com/credit-card/rupay-credit-card",
+          "urlHash": "d030a1527e1fb1d56a7342814c1a5fa82bd14cce",
+          "uuid": "d030a152-32-aa22637de07b1bb269564887f133eebaf37210af",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[12]/section[1]/div[1]/div[1]/div[4]",
+          "section": "section-10"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 5,
+      "source": "Columns",
+      "target": "Columns (columns5)",
+      "key": "columns5",
+      "instances": [
+        {
+          "url": "https://www.idfcfirstbank.com/credit-card/rupay-credit-card",
+          "urlHash": "d030a1527e1fb1d56a7342814c1a5fa82bd14cce",
+          "uuid": "d030a152-43-4c01274fedd73934e167f11b4ea0f20604819d4f",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/footer[1]/div[2]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 6,
+      "source": "Columns",
+      "target": "Columns (columns6)",
+      "key": "columns6",
+      "instances": [
+        {
+          "url": "https://www.idfcfirstbank.com/credit-card/rupay-credit-card",
+          "urlHash": "d030a1527e1fb1d56a7342814c1a5fa82bd14cce",
+          "uuid": "d030a152-20-70e4cb36f249ed63ec2297a50ed81e9aac341cf3",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[9]",
+          "section": "section-5"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 7,
+      "source": "Cards",
+      "target": "Cards (cards7)",
+      "key": "cards7",
+      "instances": [
+        {
+          "url": "https://www.idfcfirstbank.com/credit-card/rupay-credit-card",
+          "urlHash": "d030a1527e1fb1d56a7342814c1a5fa82bd14cce",
+          "uuid": "d030a152-27-423deeee76c01ab6da5bda10923d8f92e1698bb5",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[11]/section[1]/div[1]/div[2]/div[1]/div[1]/div[4]",
+          "section": "section-9"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 8,
+      "source": "Columns",
+      "target": "Columns (columns8)",
+      "key": "columns8",
+      "instances": [
+        {
+          "url": "https://www.idfcfirstbank.com/credit-card/rupay-credit-card",
+          "urlHash": "d030a1527e1fb1d56a7342814c1a5fa82bd14cce",
+          "uuid": "d030a152-42-3563b9908e27606cde12570437445e415df7bbae",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[3]",
+          "section": "section-14"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 9,
+      "source": "Columns",
+      "target": "Columns (columns9)",
+      "key": "columns9",
+      "instances": [
+        {
+          "url": "https://www.idfcfirstbank.com/credit-card/rupay-credit-card",
+          "urlHash": "d030a1527e1fb1d56a7342814c1a5fa82bd14cce",
+          "uuid": "d030a152-40-434eceadd560066b7686d0761aeb769dc45cadc7",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[1]",
+          "section": "section-14"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 10,
+      "source": "Cards",
+      "target": "Cards (cards10)",
+      "key": "cards10",
+      "instances": [
+        {
+          "url": "https://www.idfcfirstbank.com/credit-card/rupay-credit-card",
+          "urlHash": "d030a1527e1fb1d56a7342814c1a5fa82bd14cce",
+          "uuid": "d030a152-08-b111cb7dc7b79e0960773ab8224503a48e7e0a64",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[3]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "header",
+      "cluster": 11,
+      "source": "Header",
+      "target": "Header (header11)",
+      "key": "header11",
+      "instances": [
+        {
+          "url": "https://www.idfcfirstbank.com/credit-card/rupay-credit-card",
+          "urlHash": "d030a1527e1fb1d56a7342814c1a5fa82bd14cce",
+          "uuid": "d030a152-00-49bf44183a793fdcabc69da9d6ed98881794fe89",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[1]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 12,
+      "source": "Columns",
+      "target": "Columns (columns12)",
+      "key": "columns12",
+      "instances": [
+        {
+          "url": "https://www.idfcfirstbank.com/credit-card/rupay-credit-card",
+          "urlHash": "d030a1527e1fb1d56a7342814c1a5fa82bd14cce",
+          "uuid": "d030a152-17-24f180215f8ceaa5bf6ecfcf0fff40ea05c1e05d",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[6]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 13,
+      "source": "Columns",
+      "target": "Columns (columns13)",
+      "key": "columns13",
+      "instances": [
+        {
+          "url": "https://www.idfcfirstbank.com/credit-card/rupay-credit-card",
+          "urlHash": "d030a1527e1fb1d56a7342814c1a5fa82bd14cce",
+          "uuid": "d030a152-18-1eb18ddac8c0444565fa1597a57a0d563f25739a",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[7]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 14,
+      "source": "Columns",
+      "target": "Columns (columns14)",
+      "key": "columns14",
+      "instances": [
+        {
+          "url": "https://www.idfcfirstbank.com/credit-card/rupay-credit-card",
+          "urlHash": "d030a1527e1fb1d56a7342814c1a5fa82bd14cce",
+          "uuid": "d030a152-01-7b95230138c5b46b60f73a628b0db56d7dd1c57e",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[2]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 15,
+      "source": "Cards",
+      "target": "Cards (cards15)",
+      "key": "cards15",
+      "instances": [
+        {
+          "url": "https://www.idfcfirstbank.com/credit-card/rupay-credit-card",
+          "urlHash": "d030a1527e1fb1d56a7342814c1a5fa82bd14cce",
+          "uuid": "d030a152-19-6755ae2f696faf17a1fd75a4651589d8320a3e9e",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[8]",
+          "section": "section-4"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 16,
+      "source": "Columns",
+      "target": "Columns (columns16)",
+      "key": "columns16",
+      "instances": [
+        {
+          "url": "https://www.idfcfirstbank.com/credit-card/rupay-credit-card",
+          "urlHash": "d030a1527e1fb1d56a7342814c1a5fa82bd14cce",
+          "uuid": "d030a152-41-9a137fc731c7b07ccb5b38eed20ca6b5c721bc04",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[2]",
+          "section": "section-15"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 17,
+      "source": "Columns",
+      "target": "Columns (columns17)",
+      "key": "columns17",
+      "instances": [
+        {
+          "url": "https://www.idfcfirstbank.com/credit-card/rupay-credit-card",
+          "urlHash": "d030a1527e1fb1d56a7342814c1a5fa82bd14cce",
+          "uuid": "d030a152-39-805e42fdda0c2a5b4fd239e239586bc155c9643b",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[15]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "section": "section-13"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 18,
+      "source": "Columns",
+      "target": "Columns (columns18)",
+      "key": "columns18",
+      "instances": [
+        {
+          "url": "https://www.idfcfirstbank.com/credit-card/rupay-credit-card",
+          "urlHash": "d030a1527e1fb1d56a7342814c1a5fa82bd14cce",
+          "uuid": "d030a152-04-a46490b1463e2d83fa33de9c4fe5d19600031081",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[1]/section[1]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 19,
+      "source": "Columns",
+      "target": "Columns (columns19)",
+      "key": "columns19",
+      "instances": [
+        {
+          "url": "https://www.idfcfirstbank.com/credit-card/rupay-credit-card",
+          "urlHash": "d030a1527e1fb1d56a7342814c1a5fa82bd14cce",
+          "uuid": "d030a152-15-667bbb05585a0dc19faeaa79c8f81acaa41a7ab7",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[5]/section[1]/div[1]/div[1]/div[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 20,
+      "source": "Cards",
+      "target": "Cards (cards20)",
+      "key": "cards20",
+      "instances": [
+        {
+          "url": "https://www.idfcfirstbank.com/credit-card/rupay-credit-card",
+          "urlHash": "d030a1527e1fb1d56a7342814c1a5fa82bd14cce",
+          "uuid": "d030a152-36-c2c614b21b34626453f9fc610b566ccf87707ec5",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[14]/section[1]/div[1]/div[2]/div[1]",
+          "section": "section-12"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 21,
+      "source": "Columns",
+      "target": "Columns (columns21)",
+      "key": "columns21",
+      "instances": [
+        {
+          "url": "https://www.idfcfirstbank.com/credit-card/rupay-credit-card",
+          "urlHash": "d030a1527e1fb1d56a7342814c1a5fa82bd14cce",
+          "uuid": "d030a152-38-c5019649833ff1c5aa959b743e642e39ca5388df",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[15]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
+          "section": "section-13"
+        }
+      ]
+    }
+  ],
+  "outliers": [
+    {
+      "url": "https://www.idfcfirstbank.com/credit-card/rupay-credit-card",
+      "urlHash": "d030a1527e1fb1d56a7342814c1a5fa82bd14cce",
+      "uuid": "d030a152-02-55406fc4d07096d53dc70908846555d33550e7d4",
+      "xpath": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.idfcfirstbank.com/credit-card/rupay-credit-card",
+      "urlHash": "d030a1527e1fb1d56a7342814c1a5fa82bd14cce",
+      "uuid": "d030a152-03-d60e27806a9295c76aa86d25aa8344162a41de83",
+      "xpath": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.idfcfirstbank.com/credit-card/rupay-credit-card",
+      "urlHash": "d030a1527e1fb1d56a7342814c1a5fa82bd14cce",
+      "uuid": "d030a152-05-d77511688e7351eda0917cfde9faf4a33db9075a",
+      "xpath": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[2]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.idfcfirstbank.com/credit-card/rupay-credit-card",
+      "urlHash": "d030a1527e1fb1d56a7342814c1a5fa82bd14cce",
+      "uuid": "d030a152-06-4671b73a27239ae29ddb8830bdff3f14d61da756",
+      "xpath": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[3]/section[1]/div[1]/div[1]/div[1]/h2[1]"
+    },
+    {
+      "url": "https://www.idfcfirstbank.com/credit-card/rupay-credit-card",
+      "urlHash": "d030a1527e1fb1d56a7342814c1a5fa82bd14cce",
+      "uuid": "d030a152-07-e57ec834e7eaab1b7c131153dcb8bde495aabe2b",
+      "xpath": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[3]/section[1]/div[1]/div[1]/div[1]/p[1]"
+    },
+    {
+      "url": "https://www.idfcfirstbank.com/credit-card/rupay-credit-card",
+      "urlHash": "d030a1527e1fb1d56a7342814c1a5fa82bd14cce",
+      "uuid": "d030a152-09-02d46432262fa891bf2b7e13fbe01f8f467d3e2f",
+      "xpath": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[3]/section[1]/div[1]/div[1]/div[1]/div[1]/div[3]"
+    },
+    {
+      "url": "https://www.idfcfirstbank.com/credit-card/rupay-credit-card",
+      "urlHash": "d030a1527e1fb1d56a7342814c1a5fa82bd14cce",
+      "uuid": "d030a152-10-262235260122812ed4850e32aa9e0b9a58e85953",
+      "xpath": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[4]/section[1]/div[1]/div[1]/div[1]/h2[1]"
+    },
+    {
+      "url": "https://www.idfcfirstbank.com/credit-card/rupay-credit-card",
+      "urlHash": "d030a1527e1fb1d56a7342814c1a5fa82bd14cce",
+      "uuid": "d030a152-11-53953fd7574e51bef3d9756c3f572202c12a1c19",
+      "xpath": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[4]/section[1]/div[1]/div[1]/div[1]/p[1]"
+    },
+    {
+      "url": "https://www.idfcfirstbank.com/credit-card/rupay-credit-card",
+      "urlHash": "d030a1527e1fb1d56a7342814c1a5fa82bd14cce",
+      "uuid": "d030a152-13-29235c10bade76cbe3d73ae967fa404e0b1d3a8b",
+      "xpath": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[4]/section[1]/div[1]/div[1]/div[2]"
+    },
+    {
+      "url": "https://www.idfcfirstbank.com/credit-card/rupay-credit-card",
+      "urlHash": "d030a1527e1fb1d56a7342814c1a5fa82bd14cce",
+      "uuid": "d030a152-14-bc4510396ae38e3dab0eb5718cee67ac373d7c60",
+      "xpath": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[5]/section[1]/div[1]/div[1]/div[1]/h2[1]"
+    },
+    {
+      "url": "https://www.idfcfirstbank.com/credit-card/rupay-credit-card",
+      "urlHash": "d030a1527e1fb1d56a7342814c1a5fa82bd14cce",
+      "uuid": "d030a152-16-8e7a86cd7f0f36c2dc86a96f8aa60c12fd267b32",
+      "xpath": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[5]/section[1]/div[2]"
+    },
+    {
+      "url": "https://www.idfcfirstbank.com/credit-card/rupay-credit-card",
+      "urlHash": "d030a1527e1fb1d56a7342814c1a5fa82bd14cce",
+      "uuid": "d030a152-21-c58f009d8b328aef8e28152990bb1d926ad2bba8",
+      "xpath": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[10]/section[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.idfcfirstbank.com/credit-card/rupay-credit-card",
+      "urlHash": "d030a1527e1fb1d56a7342814c1a5fa82bd14cce",
+      "uuid": "d030a152-22-d5c6982e50f3d7f7f347d46f279f79c3949cd2ec",
+      "xpath": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[10]/section[1]/div[1]/div[2]/div[1]/div[1]/div[1]",
+      "section": "section-6"
+    },
+    {
+      "url": "https://www.idfcfirstbank.com/credit-card/rupay-credit-card",
+      "urlHash": "d030a1527e1fb1d56a7342814c1a5fa82bd14cce",
+      "uuid": "d030a152-23-3cd236c13d54909e42112ab7f644db017a5e548f",
+      "xpath": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[10]/section[1]/div[1]/div[2]/div[1]/div[1]/div[2]",
+      "section": "section-7"
+    },
+    {
+      "url": "https://www.idfcfirstbank.com/credit-card/rupay-credit-card",
+      "urlHash": "d030a1527e1fb1d56a7342814c1a5fa82bd14cce",
+      "uuid": "d030a152-24-77662d5cbce478d5bb26cc8b3464236fb5521c4d",
+      "xpath": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[10]/section[1]/div[1]/div[2]/div[1]/div[3]"
+    },
+    {
+      "url": "https://www.idfcfirstbank.com/credit-card/rupay-credit-card",
+      "urlHash": "d030a1527e1fb1d56a7342814c1a5fa82bd14cce",
+      "uuid": "d030a152-25-babf4043e3462088148ad410bc95aacf58dbbf56",
+      "xpath": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[11]/section[1]/div[1]/div[1]",
+      "section": "section-8"
+    },
+    {
+      "url": "https://www.idfcfirstbank.com/credit-card/rupay-credit-card",
+      "urlHash": "d030a1527e1fb1d56a7342814c1a5fa82bd14cce",
+      "uuid": "d030a152-26-8dfda8067938f6c3a800d2643cbe38c4de11520a",
+      "xpath": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[11]/section[1]/div[1]/div[2]/div[1]/div[2]",
+      "section": "section-8"
+    },
+    {
+      "url": "https://www.idfcfirstbank.com/credit-card/rupay-credit-card",
+      "urlHash": "d030a1527e1fb1d56a7342814c1a5fa82bd14cce",
+      "uuid": "d030a152-28-965aa773520a4dcca9dfea01f16241f51eca50f6",
+      "xpath": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[12]/section[1]/div[1]/h4[1]",
+      "section": "section-10"
+    },
+    {
+      "url": "https://www.idfcfirstbank.com/credit-card/rupay-credit-card",
+      "urlHash": "d030a1527e1fb1d56a7342814c1a5fa82bd14cce",
+      "uuid": "d030a152-29-c4ebade400ac22ea2775967eb2e8efb0f6f7a13b",
+      "xpath": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[12]/section[1]/div[1]/div[1]/div[1]",
+      "section": "section-10"
+    },
+    {
+      "url": "https://www.idfcfirstbank.com/credit-card/rupay-credit-card",
+      "urlHash": "d030a1527e1fb1d56a7342814c1a5fa82bd14cce",
+      "uuid": "d030a152-34-9be7973e50da8597a13592e2fb28a7a3466638a9",
+      "xpath": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[14]/section[1]/div[1]/div[1]",
+      "section": "section-12"
+    },
+    {
+      "url": "https://www.idfcfirstbank.com/credit-card/rupay-credit-card",
+      "urlHash": "d030a1527e1fb1d56a7342814c1a5fa82bd14cce",
+      "uuid": "d030a152-35-57715dc5e05d7e66a30b809d8972986ce65565f2",
+      "xpath": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[1]/div[14]/section[1]/div[1]/div[2]/p[1]",
+      "section": "section-12"
+    }
+  ],
+  "sections": [
+    {
+      "name": "section-1",
+      "background": "rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 3
+    },
+    {
+      "name": "section-2",
+      "background": "rgba(0, 0, 0, 0.5) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 1
+    },
+    {
+      "name": "section-3",
+      "background": "rgba(0, 0, 0, 0) radial-gradient(at left top, rgb(173, 42, 51) 0%, rgb(19, 16, 35) 100%) repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 1
+    },
+    {
+      "name": "section-4",
+      "background": "rgb(0, 0, 0) url(\"https://www.idfcfirstbank.com/content/dam/idfcfirstbank/images/upi-landing-l2/welcome-bg.png\") repeat scroll 50% 50% / cover padding-box border-box",
+      "count": 1
+    },
+    {
+      "name": "section-5",
+      "background": "rgba(0, 0, 0, 0) url(\"https://www.idfcfirstbank.com/content/dam/idfcfirstbank/images/upi-landing-l2/bg.jpg\") repeat scroll 50% 50% / cover padding-box border-box",
+      "count": 1
+    },
+    {
+      "name": "section-6",
+      "background": "rgb(86, 59, 128) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 1
+    },
+    {
+      "name": "section-7",
+      "background": "rgb(128, 128, 128) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 1
+    },
+    {
+      "name": "section-8",
+      "background": "rgb(224, 77, 86) url(\"https://www.idfcfirstbank.com/content/dam/idfcfirstbank/images/upi-landing-l2/bg.jpg\") repeat scroll 0% 0% / cover padding-box border-box",
+      "count": 2
+    },
+    {
+      "name": "section-9",
+      "background": "rgba(0, 0, 0, 0) linear-gradient(rgba(255, 255, 255, 0.2) 0%, rgba(177, 177, 177, 0.2) 100%) repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 1
+    },
+    {
+      "name": "section-10",
+      "background": "rgb(18, 18, 18) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 5
+    },
+    {
+      "name": "section-11",
+      "background": "rgba(0, 0, 0, 0) linear-gradient(rgb(196, 119, 125) 0%, rgb(157, 29, 39) 100%) repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 1
+    },
+    {
+      "name": "section-12",
+      "background": "rgb(244, 244, 248) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 3
+    },
+    {
+      "name": "section-13",
+      "background": "rgb(244, 244, 244) none repeat scroll 0% 0% / cover padding-box border-box",
+      "count": 3
+    },
+    {
+      "name": "section-14",
+      "background": "rgb(157, 29, 39) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 2
+    },
+    {
+      "name": "section-15",
+      "background": "rgba(17, 17, 17, 0.1) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 1
+    }
+  ]
+}
