@@ -1,0 +1,27 @@
+{
+  "originUrl": "https://www.idfcfirstbank.com",
+  "aborted": false,
+  "urls": [
+    {
+      "url": "https://www.idfcfirstbank.com/credit-card/rupay-credit-card",
+      "source": "MANUAL",
+      "targetPath": "/credit-card/rupay-credit-card",
+      "id": "d030a1527e1fb1d56a7342814c1a5fa82bd14cce"
+    }
+  ],
+  "lastCrawled": "MANUAL",
+  "crawlOptions": {
+    "timeout": 10000,
+    "inclusionPatterns": [],
+    "exclusionPatterns": [],
+    "limit": 100,
+    "sameDomain": true,
+    "keepHash": false,
+    "strategy": "manual",
+    "strategiesAttempted": [
+      "MANUAL"
+    ]
+  },
+  "extractionErrors": [],
+  "errorCountMessage": "none"
+}
